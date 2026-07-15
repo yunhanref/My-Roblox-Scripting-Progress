@@ -6,7 +6,7 @@ local door = script.Parent.DOORpart
 local button = script.Parent.DOORBUTTONpart
 
 button.Touched:Connect(function(TouchButton)
-	if TouchButton.Parent:FindFirstChild("Humanoid") then --if the touching parts parent is humanoid (player) then...
+	if TouchButton.Parent:FindFirstChild("Humanoid") then --if the parent of touched part is humanoid (player) then...
 		print("Door Active...")
 		door.CanCollide = false
 		door.Transparency = 0.5
