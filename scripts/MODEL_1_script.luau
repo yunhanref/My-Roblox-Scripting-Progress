@@ -1,6 +1,6 @@
 --When the key block is touched, the door will be "open" for a small time. 
 --The doors transparency and color will indicate that the player can move further. 
---All stair steps have a time limit which when expired, if falls to the ground.
+--All stair steps have a time limit which when expired, they fall to the ground.
 
 local door = script.Parent.DOORpart
 local button = script.Parent.DOORBUTTONpart
